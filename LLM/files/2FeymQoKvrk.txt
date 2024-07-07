@@ -1,0 +1,32 @@
+**Summary:**
+
+This video showcases the development of a JavaScript AI application using OpenAI's language model, Codex. The application, "Codex AI," allows users to ask technical questions in natural language and receive intelligent responses, including code generation and explanations.
+
+**Key Points:**
+
+* **Codex AI Functionality:**
+    * Answers technical queries in a conversational manner.
+    * Generates code in various programming languages.
+    * Translates code between languages.
+    * Helps with coding exercises and challenges.
+
+* **Technology Stack:**
+    * Front-end: HTML, CSS, JavaScript, Veet
+    * Back-end: Express, Node.js, OpenAI API
+    * Deployment: GitHub, Render.com (server), Vercel (client)
+
+* **Key Features:**
+    * Dynamic chat interface with AI responses.
+    * Real-time code generation and loading animation.
+    * Minimalistic and responsive UI.
+    * Integration with OpenAI's powerful language model.
+
+* **Prerequisites:**
+    * Node.js installed.
+    * Basic understanding of JavaScript.
+
+* **Steps:**
+    * Set up the front-end with Veet.
+    * Create the back-end with Express and OpenAI's API.
+    * Connect the front-end to the back-end to fetch AI responses.
+    * Deploy the server and client applications using Render.com and Vercel.

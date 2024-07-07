@@ -1,0 +1,18 @@
+.uploadvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.videoform {
+    padding: 50px;
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+.form-control {
+    border-color: black !important;
+}

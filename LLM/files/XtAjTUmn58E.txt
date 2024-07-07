@@ -1,0 +1,25 @@
+**Summary of James Carriello's Interview from Google**
+
+James Carriello, a former Google senior engineering leader, shared insights about his time at Google and his current role at Grow Intelligence.
+
+**Key Takeaways:**
+
+* **Seek Out Big Problems:** James emphasized the importance of pursuing large-scale problems to maximize impact.
+* **Stay True to Your Passions:** He regretted leaving projects that aligned with his passions, highlighting the value of focusing on what drives you.
+* **Ensure Leadership Alignment:** James emphasized the importance of understanding leadership expectations and seeking opportunities to make a meaningful contribution.
+* **Manage Intrapersonal Scaling:** At Google, team structures and roles varied significantly, so it was crucial to adapt to different management styles.
+* **Integrity is Key:** James stressed the importance of staying true to yourself and maintaining your integrity, as it ultimately determines your value and credibility.
+
+**James's Current Role at Grow Intelligence:**
+
+* Grow Intelligence is a data and insights platform addressing food security and climate change.
+* They aggregate data to provide insights into crop suitability, climate impacts, and global food supply.
+* They utilize machine learning and a diverse team of experts to empower decision-making and mitigate climate risks.
+
+**Interview Questions and Answers:**
+
+**What was the biggest mistake of your career?**
+James regretted leaving Pub Sub, a project he was passionate about, to pursue other opportunities.
+
+**What's the most important thing you've taught yourself over your career?**
+"Be true yourself...never stop being true yourself or true to anyone else."

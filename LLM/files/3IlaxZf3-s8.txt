@@ -1,0 +1,12 @@
+**Summary:**
+
+In six months, the speaker transitioned from zero coding knowledge to a software engineering role at Google. Through a coding boot camp, dedicated daily practice, and an affinity for code puzzles on Code Wars, they developed their skills. The speaker's projects also doubled as educational tools, providing practical experience in algorithms and language creation. Despite an initial setback in a job interview, they learned from their mistake and focused on coding interview prep, transitioning to Python for enhanced preparation. Ultimately, their efforts resulted in successful coding interviews and a job offer from Google.
+
+**Key Points:**
+
+- **Overcame lack of experience:** Started with no coding knowledge and progressed rapidly.
+- **Coding boot camp foundation:** Immersed in coding for three months, spending 14-hour days on related activities.
+- **Code Wars engagement:** Became addicted to coding challenges, practicing skills daily.
+- **Projects with double value:** Created projects that not only demonstrated coding abilities but also enhanced algorithm understanding.
+- **Focused interview preparation:** Learned Python and prepared thoroughly for coding interviews despite limited Java/C++ experience.
+- **Inspirational journey:** Demonstrates the possibility of transitioning into software engineering with dedication and perseverance.

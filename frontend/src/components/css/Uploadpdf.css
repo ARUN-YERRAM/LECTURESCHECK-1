@@ -1,0 +1,51 @@
+.uploadpdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.pdfform{
+    padding: 50px;
+    border: 1px solid rgb(18, 17, 18);
+    /* background-color: #f4edf3; */
+    width: 100%;
+    text-align: center;
+
+    
+
+}
+.form-control{
+    border-color: rgb(49, 1, 46) !important;
+}
+
+
+.uploaded {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.output-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.pdf-div {
+    padding: 50px;
+    background-color: #dedede;
+    margin-top: 50px;
+}
+
+canvas.react-pdf__Page__canvas {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,9 @@
+**Summary:**
+
+Tim, a college student, participated in a Google coding interview with a YouTube channel owner who posts tutorials on programming. The task was to create an algorithm to find free time slots for meetings when provided with two individuals' calendars, daily bounds, and meeting duration.
+
+Tim initially proposed creating a list of available times for each person and then merging them but later optimized his approach by combining calendars with both individuals' availability and then filtering out unavailable times.
+
+His code included functions to compare times and calculate differences between times. He used a while loop to iterate through the merged calendar and identify potential meeting slots. However, he acknowledged a potential issue with popping elements from the list and its impact on time complexity.
+
+Overall, Tim demonstrated logical reasoning, problem-solving skills, and effective communication. The interviewer praised his approach, organization, and ability to translate his thought process into code. While there were minor bugs in the code, the interviewer highlighted that this level of accuracy is not expected in a 45-minute interview, especially for an intern position.

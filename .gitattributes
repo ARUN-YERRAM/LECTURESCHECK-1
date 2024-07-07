@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.webm filter=lfs diff=lfs merge=lfs -text
+Backend/videos/1719830688242video[[:space:]](1).webm filter=lfs diff=lfs merge=lfs -text

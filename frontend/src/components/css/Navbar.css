@@ -1,0 +1,49 @@
+/* .custom-navbar{
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 0;  
+}
+ */
+
+
+/* Navbar styles */
+.custom-navbar {
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: 0;
+    background-color: #1a1a1a; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.custom-navbar .nav-item {
+    margin-right: 1rem; /* Adjust spacing between navbar items */
+}
+
+.custom-navbar .btn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    border-radius: 0.25rem; /* Adjust button border radius */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.custom-navbar .btn:hover {
+    opacity: 0.8; /* Adjust button hover opacity */
+}
+
+/* Light mode */
+body {
+    background-color: #f0f0f0; /* Light mode background */
+    color: #333; /* Light mode text color */
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+}
+
+/* Add any additional styles for dark mode */
