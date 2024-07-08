@@ -1063,7 +1063,6 @@ allroutes.post("/uploadfiles", upload.single("file"), async (req, res) => {
 
         req.app.locals.pdfTextFilePath = outputTextFilePath;
 
-        
         // Check if both files are available for sending to Flask server
         if (req.app.locals.videoTextFilePath) {
             const similarity = await sendFilesToFlaskServer(req.app.locals.pdfTextFilePath, req.app.locals.videoTextFilePath, "calculate_similarity");
