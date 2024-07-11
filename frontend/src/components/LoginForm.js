@@ -82,9 +82,6 @@ const LoginForm = () => {
                         </div>
 
         </div>
-
-
-                     
     );
 };
 
