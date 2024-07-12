@@ -216,11 +216,7 @@ const UploadVideo = ({ onSubmit }) => {
                     })}
                 </div>
             </div> */}
-
-
-
         </div>
     );
 }
-
 export default UploadVideo;
