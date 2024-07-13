@@ -12,9 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <App />
-      {/* <App1/> */}
     </Router>
-    
   </React.StrictMode>
 );
 

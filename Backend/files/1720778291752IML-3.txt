@@ -1,0 +1,209 @@
+
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+1.1 Introduction of Machine Learning  
+ 
+Machine Learning is the field of study that gives computers the capability to learn without 
+being explicitly programmed. As it is evident from the name, it gives the computer that makes it 
+more similar to humans: The ability to learn.  
+Machine learning is a branch of artificial intelligence and computer science which focuses on the 
+use  of  data  and  algorithms  to  imitate  the  way  that  humans  learn,  gradually  improving  its 
+accuracy. 
+A subset of machine learning is closely related to computational statistics, which focuses on 
+making predictions using computers; but not all machine learning is statistical learning. The 
+study of mathematical optimization delivers methods, theory and application domains to the field 
+of machine learning. Machine learning is an important component of the growing field of data 
+science. Through the use of statistical methods, algorithms are trained to make classifications or 
+predictions. 
+ 
+Fig1: Machine Learning 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+ 
+In 1997, Tom Mitchell gave a “well-posed” mathematical and relational definition for Machine 
+Learning as, “A computer program is said to learn from experience E with respect to some task T 
+and some performance measure P, if its performance on T, as measured by P, improves with 
+experience E.  
+ 
+Fig2: Definition of Machine Learning 
+ 
+Definitions in Machine Learning:  
+• Algorithm: A Machine Learning algorithm is a set of rules and statistical techniques 
+used to learn patterns from data and draw significant information from it. It is the logic 
+behind a Machine Learning model.  
+An example of a Machine Learning algorithm is, the Linear Regression algorithm. 
+• Model: A model is the main component of Machine Learning. A model is trained by 
+using a Machine Learning Algorithm. An algorithm maps all the decisions that a model is 
+supposed to take based on the given input, in order to get the correct output. 
+• Predictor Variable: It is a feature(s) of the data that can be used to predict the output. 
+• Response Variable: It is the feature or the output variable that needs to be predicted by 
+using the predictor variable(s). 
+• Training  Data: The  Machine  Learning  model  is  built  using  the  training  data.  The 
+training data helps the model to identify key trends and patterns essential to predict the 
+output. 
+
+RKR21 
+ 
+• Testing Data: After the model is trained, it must be tested to evaluate how accurately it 
+can predict an outcome. This is done by the testing data set.
+ 
+Machine Learning Process
+Step 1: Define the objective of the Problem Statement
+At this step, we must understand what exactly needs to be predicted. In our 
+to predict the possibility of rain by studying weather conditions. At this stage, it is also essential 
+to take mental notes on what kind of data can be used to solve this problem or the type of 
+approach you must follow to get to the 
+ IML 
+After the model is trained, it must be tested to evaluate how accurately it 
+predict an outcome. This is done by the testing data set. 
+Fig3: Flow of Machine Learning 
+Machine Learning Process: 
+Fig4: Process of Machine Learning 
+Define the objective of the Problem Statement 
+At this step, we must understand what exactly needs to be predicted. In our 
+to predict the possibility of rain by studying weather conditions. At this stage, it is also essential 
+to take mental notes on what kind of data can be used to solve this problem or the type of 
+approach you must follow to get to the solution. 
+ II/I ALL BRANCHES 
+After the model is trained, it must be tested to evaluate how accurately it 
+ 
+ 
+At this step, we must understand what exactly needs to be predicted. In our case, the objective is 
+to predict the possibility of rain by studying weather conditions. At this stage, it is also essential 
+to take mental notes on what kind of data can be used to solve this problem or the type of 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+Step 2: Data Gathering 
+At this stage, you must be asking questions such as, 
+ What kind of data is needed to solve this problem? 
+ Is the data available? 
+ How can I get the data? 
+Once you know the types of data that is required, you must understand how you can derive this 
+data. Data collection can be done manually or by web scraping. However, if you’re a beginner 
+and you’re just looking to learn Machine Learning you don’t have to worry about getting the 
+data. There are 1000s of data resources on the web, you can just download the data set and get 
+going. 
+Coming back to the problem at hand, the data needed for weather forecasting includes measures 
+such as humidity level, temperature, pressure, locality, whether or not you live in a hill station, 
+etc. Such data must be collected and stored for analysis. 
+Step 3: Data Preparation 
+The  data  you  collected  is  almost  never  in  the  right  format.  You  will  encounter  a  lot  of 
+inconsistencies in the data set such as missing values, redundant variables, duplicate values, etc. 
+Removing  such  inconsistencies  is  very  essential  because  they  might  lead  to  wrongful 
+computations  and  predictions.  Therefore,  at  this  stage,  you  scan  the  data  set  for  any 
+inconsistencies and you fix them then and there. 
+Step 4: Exploratory Data Analysis 
+Grab your detective glasses because this stage is all about diving deep into data and finding all 
+the hidden data mysteries. EDA or Exploratory Data Analysis is the brainstorming stage of 
+Machine Learning. Data Exploration involves understanding the patterns and trends in the data. 
+At  this  stage,  all  the  useful  insights  are  drawn  and  correlations  between  the  variables  are 
+understood. 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+For example, in the case of predicting rainfall, we know that there is a strong possibility of rain if 
+the temperature has fallen low. Such correlations must be understood and mapped at this stage. 
+Step 5: Building a Machine Learning Model 
+All the insights and patterns derived during Data Exploration are used to build the Machine 
+Learning Model. This stage always begins by splitting the data set into two parts, training data, 
+and testing data. The training data will be used to build and analyze the model. The logic of the 
+model is based on the Machine Learning Algorithm that is being implemented. 
+In the case of predicting rainfall, since the output will be in the form of True (if it will rain 
+tomorrow) or False (no rain tomorrow), we can use a Classification Algorithm such as Logistic 
+Regression. 
+Step 6: Model Evaluation & Optimization 
+After building a model by using the training data set, it is finally time to put the model to a test. 
+The testing data set is used to check the efficiency of the model and how accurately it can predict 
+the outcome. Once the accuracy is calculated, any further improvements in the model can be 
+implemented at this stage. Methods like parameter tuning and cross-validation can be used to 
+improve the performance of the model. 
+Step 7: Predictions 
+Once the model is evaluated and improved, it is finally used to make predictions. The final 
+output can be a Categorical variable (eg. True or False) or it can be a Continuous Quantity (eg. 
+the predicted value of a stock). 
+In our case, for predicting the occurrence of rainfall, the output will be a categorical variable. 
+So that was the entire Machine Learning process. Now it’s time to learn about the different ways 
+in which Machines can learn. 
+ 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+1.2 Uses (Applications) of Machine Learning 
+The need for machine learning is increasing day by day. The reason behind the need for machine 
+learning is that it is capable of doing tasks that are too complex for a person to implement 
+directly. As a human, we have some limitations as we cannot access the huge amount of data 
+manually, so for this, we need some computer systems and here comes the machine learning to 
+make things easy for us. 
+We can train machine learning algorithms by providing them the huge amount of data and let 
+them explore the data, construct the models, and predict the required output automatically.  
+1. Image Recognition: 
+Image recognition is one of the most common applications of machine learning. It is used to 
+identify objects, persons, places, digital images, etc. The popular use case of image recognition 
+and face detection is, Automatic friend tagging suggestion: 
+Facebook provides us a feature of auto friend tagging suggestion. Whenever we upload a photo 
+with our Facebook friends, then we automatically get a tagging suggestion with name, and the 
+technology behind this is machine learning's face detection and recognition algorithm. 
+It  is  based  on  the  Facebook  project  named  "Deep  Face,"  which  is  responsible  for  face 
+recognition and person identification in the picture. 
+ 
+   Fig5: Machine Learning Applications 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+2. Speech Recognition 
+While using Google, we get an option of "Search by voice," it comes under speech recognition, 
+and it's a popular application of machine learning. 
+Speech recognition is a process of converting voice instructions into text, and it is also known as 
+"Speech to text", or "Computer speech recognition." At present, machine learning algorithms 
+are widely used by various applications of speech recognition. Google assistant, Siri, Cortana, 
+and Alexa are using speech recognition technology to follow the voice instructions. 
+3. Traffic prediction: 
+If we want to visit a new place, we take help of Google Maps, which shows us the correct path 
+with the shortest route and predicts the traffic conditions. 
+4.  Product recommendations: 
+Machine learning  is  widely used  by  various  e-commerce and entertainment companies such 
+as Amazon, Netflix, etc., for product recommendation to the user. Whenever we search for some 
+product on Amazon, then we started getting an advertisement for the same product while internet 
+surfing on the same browser and this is because of machine learning. Google understands the 
+user interest using various machine learning algorithms and suggests the product as per customer 
+interest.  
+5. Self-driving cars: 
+One of the most exciting applications of machine learning is self-driving cars. Machine learning 
+plays a significant role in self-driving cars. Tesla, the most popular car manufacturing company 
+is working on self-driving car. It is using unsupervised learning method to train the car models to 
+detect people and objects while driving. 
+6. Email Spam and Malware Filtering: 
+Whenever we receive a new email, it is filtered automatically as important, normal, and spam. 
+We always receive an important mail in our inbox with the important symbol and spam emails in 
+our spam box, and the technology behind this is Machine learning. 
+
+RKR21 IML II/I ALL BRANCHES 
+ 
+7. Virtual Personal Assistant: 
+We have various virtual personal assistants such as Google assistant, Alexa, Cortana, Siri. As 
+the name suggests, they help us in finding the information using our voice instruction. These 
+assistants can help us in various ways just by our voice instructions such as Play music, call 
+someone, Open an email, Scheduling an appointment, etc. 
+8. Online Fraud Detection: 
+Machine learning is making our online transaction safe and secure by detecting fraud transaction. 
+Whenever we perform some online transaction, there may be various ways that a fraudulent 
+transaction can take place such as fake accounts, fake ids, and steal money in the middle of a 
+transaction. So to detect this, Feed Forward Neural network helps us by checking whether it is 
+a genuine transaction or a fraud transaction. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
