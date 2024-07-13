@@ -22,7 +22,7 @@ app.use(cors({credentials:true, origin:'http://localhost:3000'}));
 app.use("/api",allroutes);
 ////api/////////////////////////////////////////
 app.use("/",async(req,res)=>{
-    res.send("wellcome to dune university");
+    res.send("welcome to dune university");
 });
 
 //////////////////////////////////////////////////
