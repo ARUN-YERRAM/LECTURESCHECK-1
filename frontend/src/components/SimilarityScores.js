@@ -1,37 +1,49 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
-import axios from 'axios';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
+import { useEffect, useState } from 'react';
+import axios from 'axios'; 
+
 // Register necessary components
+
+// const SimilarityScores = () => {
+//   const [scores, setScores] = useState([]);
+
+//   useEffect(() => {
+//     // Fetch data from backend
+//     axios.get('http://localhost:3000/api/similarity-scores')
+//       .then(response => {
+//         setScores(response.data);
+//       })
+//       .catch(error => {
+//         console.error('There was an error fetching the similarity scores!', error);
+//       });
+//   }, []);
+
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-const RelevanceChart = () => {
-  const [scores, setScores] = useState(null);
+
+const SimilarityScores = ({ similarityScore }) => {
+
+  const [scores, setScores] = useState([]);
 
   useEffect(() => {
     // Fetch data from backend
-    axios.get('http://localhost:5000/api/calculate_similarity')
+    axios.get('http://localhost:3000/api/similarity-scores')
       .then(response => {
-        setScores(response.data.similarity*100);
-        console.log(response.data.similarity)
+        setScores(response.data);
       })
       .catch(error => {
         console.error('There was an error fetching the similarity scores!', error);
       });
   }, []);
 
-  if (scores === null) {
-    return <div>Loading...</div>;
-  }
-
   const data = {
     labels: ['File A vs. File B'],
     datasets: [
       {
         label: 'Similarity Score',
-        data: [scores],
+        data: [similarityScore],
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: 'rgba(54, 162, 235, 1)',
         borderWidth: 1,
@@ -59,17 +71,12 @@ const RelevanceChart = () => {
   };
 
   return (
-    <>
-    <Navbar/>
-    <Sidebar/>
     <div style={{ width: '75%', margin: 'auto' }}>
       <Bar data={data} options={options} />
     </div>
-
-    </>
   );
 };
 
-export default RelevanceChart;
 
+export default SimilarityScores;
 
